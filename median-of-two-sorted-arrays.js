@@ -33,7 +33,6 @@ function findk(m, n, k){
         }
     }
     var x =  i>=m.length?n[j + k - 1]:m[i+ k - 1];
-    console(x,'x')
     return x;
 
 }

@@ -25,7 +25,7 @@ function help(n, answer){
             queue.push(other);
 
         }
-        //other = {};
+        other = {};
         if(temp.x > temp.y){
             other.x = temp.x;
             other.y = temp.y + 1;
